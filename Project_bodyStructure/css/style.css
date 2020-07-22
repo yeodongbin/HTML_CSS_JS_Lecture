@@ -1,0 +1,17 @@
+.nav_ul {
+    border: 2px solid blue;
+}
+
+.navigation {
+    float : left;
+    width: 100px;
+    height: 10px;
+}
+
+section {
+    border : 1px solid gray;
+    width: 1000px;
+
+}
+
+

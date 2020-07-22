@@ -1,0 +1,6 @@
+div > p {
+    border: 2px solid skyblue;
+    color: blue;
+    font-size: 30px;
+    font-weight: 200;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+        form : 서버에 데이터를 보내는 양식 필수!
+        get 전송방식 : URL로 값을 받는 방식
+        입력 : www.naver.com
+        url 확인 : https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.naver.com%2F
+        입력확인 : https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=face
+    -->
+    <form action="http://validator.w3.org/check" method="get">
+        <label for="uri">URL 주소입력</label>
+        <input id="uri" type="text" name="uri">
+        <input type="submit" value="전송">
+    </form>
+    <hr>
+    <form action="http://validator.w3.org/check" method="post">
+        <div>
+            <label for="code-input">POST 소스입력</label>
+        </div>
+        <textarea name="fragment" id="code-input" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="전송">
+    </form>
+    <hr>
+    <form action="http://validator.w3.org/check" method="get">
+        <input type="text" title="아이디 입력">
+
+    </form>
+
+
+
+</body>
+
+</html>

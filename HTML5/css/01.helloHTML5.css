@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+    color: black;
+}
+
+div p {
+    color : blueviolet;
+}
+
+/*
+선택자(selector) {
+    속성(Property) : 속성 값;
+
+    background-color
+    color
+    font-size
+    font-weight
+}
+*/
