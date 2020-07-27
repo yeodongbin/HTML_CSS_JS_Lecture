@@ -7,10 +7,13 @@
    - 
 
 ## Key
-Alt + L O 
+Live Server : Alt + L + O
 Ctrl + K V
-Ctrl + K + F : 자동줄맞춤
+Sorting : Ctrl + K + F
 f12 : 크롬 개발자 도구 열기
+HTML Snippets
+Markdown All in One
+
 
 # Reference 
 1. JSBIn.com
