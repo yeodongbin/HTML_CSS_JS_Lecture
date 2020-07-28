@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrap {
+            width: 90%;
+            margin: 0 auto;
+            border: 4px solid black;
+        }
+
+        #wrap div {
+            display: inline-block;
+            height: 100px;
+        }
+
+        #wrap div:first-child {
+            background: black;
+        }
+
+        #wrap div:nth-child(2) {
+            background: brown;
+        }
+
+        #wrap div:nth-child(3) {
+            background: yellowgreen;
+        }
+
+        #wrap div:nth-child(4) {
+            background: blue;
+        }
+
+        #wrap div:last-child {
+            background: gray;
+        }
+
+        @media all and (min-width: 320px) {
+            #wrap div {
+                width: 100%;
+            }
+        }
+
+        @media all and (min-width: 768px) {
+            #wrap div {
+                width: 49%;
+            }
+            #wrap div:last-child {
+                width: 99%;
+            }
+        }
+
+        @media all and (min-width: 1024px) {
+            #wrap div {
+                width: 19%;
+            }
+            #wrap div:last-child {
+                width: 19%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+
+</html>
