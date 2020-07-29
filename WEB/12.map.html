@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
     <style>
+        /*방법 1*/
         footer {
             position: relative;
             padding-bottom: 56.25%;
@@ -13,6 +16,15 @@
             height: 0;
             overflow: hidden;
         }
+
+        /*방법 2*/
+        footer {
+            display: flex;
+            align-items: stretch;
+            height: 56.25vw;
+        }
+
+        
 
         iframe {
             position: absolute;
