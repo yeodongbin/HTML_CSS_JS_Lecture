@@ -7,12 +7,12 @@
    - 
 
 ## Key
-Live Server : Alt + L + O
-Ctrl + K V
-Sorting : Ctrl + K + F
-f12 : 크롬 개발자 도구 열기
-HTML Snippets
-Markdown All in One
+Live Server : Alt + L + O  
+Ctrl + K V  
+Sorting : Ctrl + K + F  
+f12 : 크롬 개발자 도구 열기  
+HTML Snippets  
+Markdown All in One  
 
 
 # Reference 
